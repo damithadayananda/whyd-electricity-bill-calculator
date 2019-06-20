@@ -6,10 +6,12 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  height: 200px;
+  width: 150px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(222, 76%, 7%, 0.82);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +23,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.MuiButton-label-2 {
+}
+
+.align-button {
+  border: 20px;
 }
 
 @keyframes App-logo-spin {
